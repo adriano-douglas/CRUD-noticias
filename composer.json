@@ -1,0 +1,10 @@
+{
+    "name": "adrian-douglas/crud-noticias",
+    "description": "CRUD de not\u0000cias com suas respectivas categorias",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

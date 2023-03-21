@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="content">
+            <span class="logo"><a href="#">LOGO</a></span>
+            <div class="rigth">
+                <i class="fa-solid fa-xmark close"></i>
+                <ul>
+                    <li><a href="#">CADASTRAR NOTÍCIAS</a></li>
+                    <li><a href="#">EXIBIR NOTÍCIAS</a></li>
+                </ul>
+                <div class="input-box">
+                    <form action="#" method="get">
+                        <input type="text">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass search"></i></button>
+                    </form>
+                </div>
+            </div>
+            <i class="fa-solid fa-bars menu"></i>
+        </nav>
+    </header>
+
+    <section class="form content">
+        <!-- <div class="success"><span>Preencha todos os campos</span></div> -->
+
+        <form action="#" method="post">
+            <h3>Cadastro de notícias</h3>
+            <input type="text" name="titulo" placeholder="Titulo da notícia">
+            <input type="text" name="categoria" placeholder="Categoria da notícia">
+            <textarea name="conteudo" id="" rows="7" placeholder="Conteudo da notícia"></textarea>
+            <input type="submit" value="Cadastrar">
+        </form>
+    </section>
+
+    <section class="noticias content">
+        <div class="noticia">
+            <div class="header">
+                <h3 class="title">Titulo da notícia</h3>
+                <p>Conteudo na notícia Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, voluptas, error molestiae possimus modi magnam nulla iure laudantium enim eos ad dolores aliquam veritatis. Inventore minima nesciunt maiores ad nostrum.  Lorem ipsum dolor, sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit amet consectetur adipisicing </p>
+            </div>
+            <div class="footer">
+                <a href="#"><button>Acessar</button></a>
+            </div>
+        </div> 
+    </section>
+
+    <footer>DESENVOLVIDO POR PROGRAMADOR</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
